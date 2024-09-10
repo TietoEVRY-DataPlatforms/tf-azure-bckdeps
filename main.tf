@@ -11,7 +11,7 @@ module "backup_sa" {
   ]
 
   // #TODO(ekarlso): Remove once it's migrated to TiE repo
-  source = "github.com/TietoEVRY-DataPlatforms/terraform-azurerm-storage?ref=v3.0.0"
+  source = "github.com/TietoEVRY-DataPlatforms/terraform-azurerm-storage?ref=v6.0.1"
 
   resource_group_name = azurerm_resource_group.db_backup.name
   location            = azurerm_resource_group.db_backup.location
