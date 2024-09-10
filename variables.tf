@@ -26,3 +26,8 @@ variable "msi_identities" {
 variable "network_rules" {
   default = []
 }
+
+variable "cross_tenant_replication_enabled" {
+  description = "Should cross Tenant replication be enabled?"
+  default     = false
+}

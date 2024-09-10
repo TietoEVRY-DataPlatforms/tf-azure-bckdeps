@@ -16,6 +16,8 @@ module "backup_sa" {
   resource_group_name = azurerm_resource_group.db_backup.name
   location            = azurerm_resource_group.db_backup.location
 
+  cross_tenant_replication_enabled = var.cross_tenant_replication_enabled
+
   storage_account_name = "db${var.sa_name}"
 
   # To enable advanced threat protection set argument to `true`
