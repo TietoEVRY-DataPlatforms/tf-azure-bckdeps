@@ -30,6 +30,7 @@ No requirements.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_cross_tenant_replication_enabled"></a> [cross\_tenant\_replication\_enabled](#input\_cross\_tenant\_replication\_enabled) | Should cross Tenant replication be enabled? | `bool` | `false` | no |
 | <a name="input_location"></a> [location](#input\_location) | n/a | `string` | n/a | yes |
 | <a name="input_msi_identities"></a> [msi\_identities](#input\_msi\_identities) | n/a | `list` | `[]` | no |
 | <a name="input_msi_name"></a> [msi\_name](#input\_msi\_name) | n/a | `string` | n/a | yes |
